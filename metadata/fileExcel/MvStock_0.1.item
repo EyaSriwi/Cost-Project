@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_iCI8QA6xEe-NTbM416c4UQ" name="MvStock" dataPackage="_iCI8QQ6xEe-NTbM416c4UQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/AH Info/Desktop/Stage Ing/Data Pret/Talend/Ancien Data - Copy/MvStock.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_iCI8QQ6xEe-NTbM416c4UQ" name="default" dataManager="_iCI8QA6xEe-NTbM416c4UQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_iCI8Qg6xEe-NTbM416c4UQ" id="_WT07AA6xEe-NTbM416c4UQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iCI8Qw6xEe-NTbM416c4UQ" label="Belegdat" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iCI8RA6xEe-NTbM416c4UQ" label="Kurtztext" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iCI8RQ6xEe-NTbM416c4UQ" label="Menge" length="20" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iCI8Rg6xEe-NTbM416c4UQ" label="Nettpreis" length="100" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iCI8Rw6xEe-NTbM416c4UQ" label="Nettowert" length="100" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iCI8SA6xEe-NTbM416c4UQ" label="Sicherheitsbestand" length="20" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iCI8SQ6xEe-NTbM416c4UQ" label="Standort" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iCI8Sg6xEe-NTbM416c4UQ" label="Artikel_Zustand" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iCI8Sw6xEe-NTbM416c4UQ" label="Warengrp" length="20" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iCI8TA6xEe-NTbM416c4UQ" label="Lort" length="100" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
